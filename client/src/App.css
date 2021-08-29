@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.goTopHidden {
+  display: none;
+}
+
+.goTop {
+  display: block;
+}
+
+.goTop .goTop_text {
+  position: fixed;
+  background: rgba(252, 248, 241, 0.8);
+  box-shadow: 2px 2px 5px yellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  bottom: 5%;
+  left: 90%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+}
+
+.goTop:hover {
+  transform: scale(1.1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
